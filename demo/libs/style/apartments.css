@@ -1,0 +1,19 @@
+#apartments.space{
+	text-decoration: color: yellow;
+	color: blue;	
+	padding: 100px 100px 100px; 100px; 
+}
+
+#apartments.border_img{
+	border-image: src="/../../static/space-indoor.jpg" 20% round;
+	border-color: red;	
+	border-style: solid;
+}
+
+
+
+
+
+
+		
+	

@@ -1,0 +1,66 @@
+
+#header{
+	background: url(../../static/summer.jpg);
+	height: 400px;
+	background-size: cover;
+	}
+#header.menu-item a{
+		color: white;
+		text-align: center;
+		display: inline-block;
+		padding: 15px 60px 15px 0;
+		text-decoration: none;
+	}
+.menu-item a:hover {
+	 color: black;
+}
+.last{
+padding: 15px 0 15px 0;
+}
+
+.headline{
+		color: #f16b0b;
+		font-size: 50px;
+		text-align: center;
+		font-family: 'Exo 2', sans-serif;
+
+}
+#colorplay {
+		color: #0698a5;
+		font-size: 50px;
+		text-align: center;
+		font-family: 'Exo 2', sans-serif;
+		animation-name: colorplay;
+		animation-duration: 4s;
+
+}
+
+.heading{
+	text-align: center;
+	padding: 75px 60px 15px 0;
+	font-family: 'Slabo 27px', serif;
+	font-size: 40px;
+}
+
+.col-md-4{
+	background-color:#f16b0b;
+	text-align: center;
+	background-size: cover;
+	position: relative;
+	padding: 75px 160px 15px 175px;
+}
+
+.col-md-12{
+	text-align: center;
+	background-size: cover;
+	position: relative;	
+	padding: 75px 160px 15px 175px;
+	
+}
+.customColor {
+	color: white !important;
+	background: red;
+}
+
+
+		

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DEMO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./libs/bootstrap.min.css">
+  <link rel="stylesheet" href="./libs/travel.css">
+  <link rel="stylesheet" href="./libs/font-awesome.min.css">
+  <script src="./libs/jquery.min.js"></script>
+  <script src="./libs/bootstrap.min.js"></script>
+  <script src="./libs/project.js"></script>
+</head>
+<body
+<div id="home" class="container-fluid">
+<div class="row">
+  <div id="header">
+<!--   	<button onclick="adaugaTextInStorage('abracadabra', '<br/>textul de adaugat dupa h1')">set text</button>
+  	<button onclick="scoateTextDinStorageSiFaceApend('abracadabra')">get text</button> -->
+<!--   	<button onclick="schimbaImaginea('https://us.123rf.com/450wm/starush/starush1507/starush150700024/43514920-brasov-transylvania-romania-6th-july-2015-brasov-council-square-is-historical-center-of-city-people-.jpg?ver=6')">schimba imaginea</button>
+  	<button onclick="schimbaImaginea('http://www.parc-aventura.ro/images/galerie/parc-aventura-brasov-5.jpg')">schimba imaginea inapoi</button> -->
+
+<!--
+  	<button onclick="doublechange('http://www.parc-aventura.ro/images/galerie/parc-aventura-brasov-6.jpg')">double change</button>
+
+
+  	<img class="mountain" src="http://www.parc-aventura.ro/images/galerie/parc-aventura-brasov-5.jpg" /> -->
+	<div class="col-md-12 col-xs-12"></div>
+      <div class="nav">
+			<button onclick="loadpost()">Load Posts</button>
+          <ul class="menu-list list-inline text-center">
+              <li class="menu-item"><a href="index.html">home</a></li>
+              <li class="menu-item"><a href="apartments.html">Our apartments</a></li>
+              <li class="menu-item"><a href="/blog/">blog</a></li>
+              <li class="menu-item"><a class="last" href="/contact/">contact</a></li>
+          </ul>
+      </div>
+      <div class="headline col-md-12">
+          <h1  id="colorplay">WELCOME IN RIO</h1>
+          <h3>BE MY GUEST</h3>
+		</div>
+	</div>
+</div>
+  <div id="global" class="container">
+
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1 postList">
+			<form action="/action_page.php">
+			<ul class="list-inline">
+				<li>Check in:<br/>
+				<input type="date" min="2017-01-01"></li>
+				<li>Check out:<br/>
+				<input type="date" max="2017-12-31"></li>
+				<li>Adults:<br/><input type="number" value="1" min="1" max="5"></li>
+				<li>Kids:<br/><input type="number" value="0" min="0" max="5"></li>
+				<li><input id="search-button" value="Search" type="search" method="get"></li>
+			</ul>
+			</form>
+			<div class="heading">
+				<h1>A Home in the Heart of the City</h1>
+				<div class="line"></div>
+				<div class="paragraph"><br/>
+					<p>Stay in a beautiful highrise in Ipanema just off the beach close to many world-class cafes and restaurants. Enjoy Bossa Nova with a cold beer!</p>
+				</div>
+			</div>
+			<div class="post">
+				<div class="row">
+					<div class="col-md-4 no-padding">
+						<div class="photo-heading-4 no-padding">
+							<div class="heading-alignement">
+								<h3>Our <br/> Apartment</h3>
+								<div class="line"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8 no-padding">
+						<img class="photo-heading-8" src="./static/flat1.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 no-padding">
+						<div class="photo-heading-4 no-padding">
+							<img src="./static/dormitor-martin.jpg"/>
+						</div>
+					</div>
+					<div class="col-md-8 no-padding">
+						<div class="description">
+							<p>The apartment is spacious with high ceilings, large windows, an open balcony and a beautiful view of the beach. Stay cool with central A/C and wind-down comfortably in the queen sized bedroom.</p>
+							<button type="button" class="button-style" onclick="customcss('.nav', 'background', '#fff')">Book Now</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="post">
+				<div class="row">
+					<div class="col-md-8 no-padding">
+						<img class="photo-heading-8" src="./static/seaside.jpg"/>
+					</div>
+					<div class="col-md-4 no-padding">
+						<div class="photo-heading-4 no-padding">
+							<div class="heading-alignement">
+								<h3>Location</h3>
+								<div class="line"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div class="post">
+					<div class="row">
+						<div class="col-md-12 col-xs-12 no-padding">
+							<div class="description-view">
+								<p>Conveniently located just opposite Leblon Beach in Ipanema, our apartment will sweep you into the charm and excitements of Rio! Dine at one of our neighborhood?s many world-renowned restaurants, enjoy fresh-squeezed juices from one of the colourful stalls along the beach, and don?t miss live bossy-nova show in one of the local bars.</p>
+								<button type="button" class="button-style">View Map</button>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class="post">
+				<div id="posts"></div>
+			</div>
+			<h3>Titlu</h3>
+			  <p>content</p>
+			</div>
+			</div>
+		</div>
+	</div>
+
+  <footer>
+      Content of the footer
+  </footer>
+</div>
+</body>
+</html>

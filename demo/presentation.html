@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>USERS</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./libs/bootstrap.min.css">
+	<link rel="stylesheet" href="./libs/travel.css">
+	<link rel="stylesheet" href="./libs/font-awesome.min.css">
+	<script src="./libs/jquery.min.js"></script>
+	<script src="./libs/bootstrap.min.js"></script>
+	<script src="./libs/users.js"></script>
+</head>
+<body>
+<div id="home" class="container-fluid">
+	<div class="row">
+	  <div id="header">
+		<div class="col-md-12 col-xs-12"></div>
+	      <div class="headline col-md-12">
+	          <h1>USERS</h1>
+			</div>
+		</div>
+	</div>
+	<button class="showHide" onclick="showInConsole(); doublechange('2');" >Show/Hide (2,4,6,9)</button>
+	<br/>
+	<button class="textAppend" onclick="textAppend();" >TxtAppend (5)</button>
+	<br/>
+	<button onclick="doBlue();" >Blue (7,8)</button>
+	<br/>
+	<button onclick="doRed();" >Red (10)</button>
+	<br/>
+	<button onclick="changeLocation();" >Change Location</button>
+	<div id="global" class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1 postList">
+				<div class="post">
+					<div id="posts"></div>
+					<h3 class="altHeading">alt heading</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+	  Content of the footer
+	</footer>
+</div>
+</body>
+</html>
