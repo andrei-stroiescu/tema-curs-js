@@ -7,23 +7,24 @@ $(document).ready( function() {
     childrens = $('#posts div').children();
 
     // cerinta 12
-    elem = document.getElementsByTagName('h1')[0];
-    var elemParent = $(elem).parent();
+    var elemH1 = document.getElementsByTagName('h1')[0];
+    var elemParent = $(elemH1).parent();
     customcss(elemParent,'position','relative');
-    customcss(elem,'position','absolute');
-    customcss(elem,'width','60px');
-    moveH1(elem);
+    customcss(elemH1,'position','absolute');
+    customcss(elemH1,'width','60px');
+    moveH1(elemH1);
 
     $('.first-posts-wrapper').animate({
       color: "#fff",
       width: 500
     }, 1000 );
 
-    customcss('.second-posts-wrapper','width','600px');
-    customcss('.second-posts-wrapper','border','1px solid #000');
-    customcss('.second-posts-wrapper','transition','border 200ms ease-in-out');
-    customcss('.second-posts-wrapper','margin-left','180px');
-    customcss('.second-posts-wrapper','transition','margin-left 200ms ease-in-out');
+    var secondTemplate = $('.second-posts-wrapper');
+    customcss(secondTemplate,'width','600px');
+    customcss(secondTemplate,'border','1px solid #000');
+    customcss(secondTemplate,'transition','border 200ms ease-in-out');
+    customcss(secondTemplate,'margin-left','180px');
+    customcss(secondTemplate,'transition','margin-left 200ms ease-in-out');
 
   }, 1000)
 
@@ -204,9 +205,4 @@ function moveH1(elem) {
         elem.style.left = pos + 'px';
     }
   }
-}
-
-function animateTemplate() {
-
-
 }
